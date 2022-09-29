@@ -1,0 +1,131 @@
+@charset "UTF-8"
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #c5ebd6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #2fa886, #063d1e);
+    min-height: 150px;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+header > h1{
+    
+    font-family: "Bauhaus 93";
+    font-size: 40px;
+    text-shadow: 2px 2px #00000065
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 1.25em;
+    text-shadow: 2px 2px #00000065
+}
+
+nav{
+    text-align: left;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px #00000065
+}
+
+main {
+    min-width: 400px;
+    max-width: 1800px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+main h1{
+    color: #063d1e;
+    font-family: "IDroid Regular";
+    font-size: 42px;
+    text-align: center;
+}
+
+main h2{
+    font-family: "IDroid Regular";
+    font-size: 21px;
+    text-align: left;
+    color: #063d1e;
+    background-image: linear-gradient(to right, #83e1ad, transparent)
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+main strong{
+    font-weight: bolder;
+    color: #1a5c37;
+}
+
+.especial{
+    font-weight: bolder;
+    color: #1a5c37;
+    text-decoration: none;
+}
+
+div.video {
+    background-color: #1a5c37; 
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside{
+    background-color: #83e1ad;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.445);
+}
+
+aside ul{
+    text-decoration: underline;
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer{
+    background-color: #063d1e;
+    color: white;
+}
+
+footer a{
+    color: inherit;
+    font-weight: bolder;
+    text-decoration: none;
+}
